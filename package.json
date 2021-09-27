@@ -1,0 +1,26 @@
+{
+  "name": "back",
+  "description": "backend logic for our csi website",
+  "engines": {
+    "node": "12.x"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/khushmanvar/csiwebsite-backend.git",
+  "author": "Khush",
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "express": "^4.17.1",
+    "firebase": "^8.7.1",
+    "firebase-admin": "^9.10.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
