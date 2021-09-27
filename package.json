@@ -1,6 +1,5 @@
 {
-  "name": "back",
-  "description": "backend logic for our csi website",
+  "name": "busboybi",
   "engines": {
     "node": "12.x"
   },
